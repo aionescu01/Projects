@@ -1,0 +1,68 @@
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.deps.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CopyComplete
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.deps.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.AssemblyReference.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfoInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CoreCompileInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CopyComplete
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.deps.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CopyComplete
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.deps.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.AssemblyInfo.cs
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.csproj.CopyComplete
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ref\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.Services\obj\Debug\net5.0\ProiectDAW.Services.pdb

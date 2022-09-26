@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+
+<head>
+    <title>Joc Ghiceste Numarul</title>
+    <link rel="icon" href="sigla.png">
+    <link rel="stylesheet" href="joc.css">
+    <script type="text/javascript" src="joc.js" defer></script>
+</head>
+
+
+
+<body id="body">
+
+    <div class="navigation-bar">
+        <nav class="main nav">
+            <ul class="meniu">
+                <li>
+                    <a href="index.html"><img id="sigl" src="sigla.png" alt="sigla"></a>
+                </li>
+                <li><a class="link" href="stiri.html">Stiri</a></li>
+                <li><a class="link">Club</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="jucatori.html">Jucatori</a></li>
+                        <li><a class="link" href="stafftehnic.html">Staff tehnic</a></li>
+                        <li><a class="link" href="clasament.html">Clasament</a></li>
+                        <li><a class="link" href="acreditari.html">Acreditari presa</a></li>
+                        <li><a class="link" href="acreditari_login.html">Administrare acreditari</a></li>
+                    </ul>
+                </li>
+                <li><a class="link">Echipe</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="index.html">Prima echipa</a></li>
+                        <li><a class="link" href="validare.html">Verifica bilet</a></li>
+                        <li><a class="link" href="joc2.html">Joc: Gooool!</a></li>
+                        <li><a class="link" href="joc.html">Joc: Ghiceste numarul</a></li>
+                        <li><a class="link" href="jocintreb.html">Joc: Q&A!</a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="istorie.html">Istorie</a></li>
+                <li><a class="link">Galerie</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="galerie.html">Statica</a></li>
+                        <li><a class="link" href="galerieanimata.html">Animatie</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1 style="text-align: center;">Ghiceste numarul jucatorului!</h2>
+
+        <section id="joc">
+            <button id="again" style="visibility: hidden;">Jucator nou!</button>
+            <button id="refresh">Incepe joc</button>
+            <div id="card" onclick="func2()">
+                <div id="imagine" onclick="func1(event)"></div>
+                <span id="nr"></span>
+                <span id="vieti"></span>
+            </div>
+            <form autocomplete="off"><input type="number" id="inp" name="fname" onfocus="this.value=''" style="visibility: hidden;"></form>
+            <button id="ghicit" style="visibility: hidden;">Ghiceste!</button>
+        </section>
+
+
+        <div class="linkuri" onmousedown="whichElement(event)">
+
+            <input type="button" href="joc2.html" class="buton" value="Schimba la joc: Gooool!" />
+
+            <input type="button" href="acreditari_login.html" class="buton" value="Schimba la acreditari presa" />
+        </div>
+
+        <button onclick="myFunction()" class="buton">Afisare culoare butoane</button><br><span id="demo"></span> <br> propagation:
+        <input type="checkbox" id="check">
+        <h2>Jucatorii: (apasati pe un scor existent pentru a-l ascunde)</h2>
+        <section id="scoruri" onmousedown="hide(event)">
+
+        </section>
+
+
+
+</body>
+
+</html>

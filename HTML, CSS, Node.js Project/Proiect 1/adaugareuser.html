@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+
+<head>
+    <title>Pagina principala</title>
+    <link rel="icon" href="sigla.png">
+    <link rel="stylesheet" href="adaugareuser.css">
+
+</head>
+
+
+
+<body>
+
+    <div class="navigation-bar">
+        <nav class="main nav">
+            <ul class="meniu">
+                <li>
+                    <a href="index.html"><img id="sigl" src="sigla.png" alt="sigla"></a>
+                </li>
+                <li><a class="link" href="stiri.html">Stiri</a></li>
+                <li><a class="link">Club</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="jucatori.html">Jucatori</a></li>
+                        <li><a class="link" href="stafftehnic.html">Staff tehnic</a></li>
+                        <li><a class="link" href="clasament.html">Clasament</a></li>
+                        <li><a class="link" href="acreditari.html">Acreditari presa</a></li>
+                        <li><a class="link" href="acreditari_login.html">Administrare acreditari</a></li>
+                    </ul>
+                </li>
+                <li><a class="link">Echipe</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="index.html">Prima echipa</a></li>
+                        <li><a class="link" href="validare.html">Verifica bilet</a></li>
+                        <li><a class="link" href="joc2.html">Joc: Gooool!</a></li>
+                        <li><a class="link" href="joc.html">Joc: Ghiceste numarul</a></li>
+                        <li><a class="link" href="jocintreb.html">Joc: Q&A!</a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="istorie.html">Istorie</a></li>
+                <li><a class="link">Galerie</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="galerie.html">Statica</a></li>
+                        <li><a class="link" href="galerieanimata.html">Animatie</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <h1>Adaugare utilizator</h1>
+    <div class="d">
+        <form id="testform" method="post" action="/adduser" enctype="multipart/form-data">
+            <p> <label>User</label> <input type="text" name="nume"> </p>
+            <p> <label>Parola</label><input type="text" name="cod"></p>
+            <p><button type="submit" class="buton"> Trimite </button> </p>
+        </form>
+
+        <form id="testform" method="get" action="/acreditari">
+            <button type="submit" class="buton"> Afiseaza acreditari </button>
+        </form>
+
+        <form id="testform" method="get" action="/logout">
+            <button type="submit" class="buton"> Log out </button>
+        </form>
+
+    </div>
+</body>
+
+</html>

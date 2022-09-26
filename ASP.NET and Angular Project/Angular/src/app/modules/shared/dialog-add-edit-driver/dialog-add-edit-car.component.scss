@@ -1,0 +1,40 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #df9954;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+
+  .car-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .button-wrapper {
+
+      width: 100px;
+      padding: 5px 10px;
+      background-color: #df9954;
+      color: black;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      border: 2px solid black;
+      border-radius: 5px;
+    }
+
+  }
+}

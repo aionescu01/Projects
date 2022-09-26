@@ -1,0 +1,90 @@
+---
+title: "Legea lui Benford"
+author: "Stan Ana-Maria, Ionescu Alexandru, Haiducu Stefan"
+date: "19/01/2022"
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r echo = FALSE}
+
+  mainPanel(
+    
+    numericInput(
+      inputId = "nr",
+      label = "Lungimea listei de numere aleatorii:",
+      value = 1000,
+      min = 100,
+      max = 10000,
+      width = 300
+    ),
+    plotOutput(outputId = "distPlot")
+    
+  )
+
+    output$distPlot <- renderPlot({
+    
+
+      benfordslaw <- function(d) log10(1 + 1 / d)
+      digits <- 1:9
+      BenfordsBarplot <- barplot(benfordslaw(digits), names.arg = digits, xlab = "Prima cifra a numarului", 
+                             ylim = c(0, .5), ylab="%",col=c("#1400ad"))
+      
+      FirstDigit <- function(x) substr(gsub('[0.]', '', x), 1, 1)
+      
+      FirstDigitPercent <- function(x) data.frame(table(FirstDigit(x)) / length(x))
+      
+      InitDataFrame <- function(x) data.frame("Var1" = FirstDigit(x),"Freq" = 0)
+      
+      
+      DataFrameFreq <- function(x) {
+        DataFrame1<-FirstDigitPercent(x)
+        DataFrame<-InitDataFrame(digits)
+        j=1
+        for(i in DataFrame1$Var1)
+        {
+          DataFrame[i,2]=DataFrame1[j,2]
+          j=j+1
+        }
+        return (DataFrame)
+      }
+
+      N <- input$nr
+      
+      set.seed(1234)
+      x1 <- runif(N, 0, 100)
+      
+      DataFrame1 <- DataFrameFreq(x1)
+      
+
+      lines(x = BenfordsBarplot[,1], y = DataFrame1$Freq, col = "#444e86", lwd = 4, 
+            type = "b", pch = 23, cex = 1.5, bg = "#444e86")
+      
+      
+      DataFrame2 <- DataFrameFreq(x1^1.2)
+      lines(x = BenfordsBarplot[,1], y = DataFrame2$Freq, col = "#955196", lwd = 4, 
+            type = "b", pch = 23, cex = 1.5, bg = "#955196")
+      
+      x3 <- runif(N, 0, 100)
+      DataFrame3 <- DataFrameFreq(x1^1.2 / x3)
+      lines(x = BenfordsBarplot[,1], y = DataFrame3$Freq, col = "#dd5182", lwd = 4, 
+            type = "b", pch = 23, cex = 1.5, bg = "#dd5182")
+      
+      x4 <- runif(N, 0, 100)
+      DataFrame4 <- DataFrameFreq(x1 * x4)
+      lines(x = BenfordsBarplot[,1], y = DataFrame4$Freq, col = "#ff6e54", lwd = 4, 
+            type = "b", pch = 23, cex = 1.5, bg = "#ff6e54")
+      
+      
+      legend("topright", legend=c("X1", "X1^1.2", "X1^1.2/X3", "X1*X4"),
+             col=c("#444e86", "#955196", "#dd5182", "#ff6e54"), lty=1:1, cex=1, lwd = 4.0)
+    
+  })
+  
+
+```

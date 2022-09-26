@@ -1,0 +1,75 @@
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.deps.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.dev.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.genruntimeconfig.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.deps.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.dev.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.AssemblyReference.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfoInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.CoreCompileInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.genruntimeconfig.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.deps.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.dev.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.AssemblyReference.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfoInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.CoreCompileInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.genruntimeconfig.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.deps.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.dev.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.genruntimeconfig.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.deps.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.runtimeconfig.dev.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.AssemblyInfo.cs
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ref\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW.DAL\obj\Debug\net5.0\ProiectDAW.DAL.genruntimeconfig.cache

@@ -1,0 +1,44 @@
+<div class="container">
+  <h1>
+    {{ title }}
+  </h1>
+
+  <!--  <p [ngStyle]="isEditable ? {color: 'red'} : {color: 'blue'}">Details:</p>-->
+
+  <form [formGroup]="driversForm" class="car-form">
+    <mat-form-field appearance="outline">
+      <mat-label>Driver Number</mat-label>
+      <input matInput placeholder="Number" formControlName="number">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Driver First Name</mat-label>
+      <input matInput placeholder="First Name" formControlName="firstName">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Driver Last Name</mat-label>
+      <input matInput placeholder="Last Name" formControlName="lastName">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Driver Age</mat-label>
+      <input matInput placeholder="Age" formControlName="age">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Team Name</mat-label>
+      <input matInput placeholder="Team Name" formControlName="teamName">
+    </mat-form-field>
+  </form>
+
+  <div class="actions">
+    <div class="button-wrapper" (click)="closeDialog()" appBtnHover>
+      Cancel
+    </div>
+
+    <div class="button-wrapper" (click)="saveData()" appBtnHover>
+      Save
+    </div>
+  </div>
+</div>

@@ -1,0 +1,122 @@
+@media screen and (max-width:1500px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body {
+        padding-top: 120px;
+        background-color: lightblue;
+    }
+    nav {
+        width: 100%;
+        height: 70px;
+        background-color: navy;
+        position: fixed;
+        top: 0px;
+        z-index: 99;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav #sigl {
+        height: 120px;
+        width: 120px;
+    }
+    nav .link {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        display: block;
+        height: 100%;
+    }
+    ul.meniu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
+    ul img {
+        height: 100%;
+        width: 120px;
+        float: left;
+        background-color: navy;
+    }
+    ul.meniu>li:nth-child(n+2) {
+        flex-grow: 1;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        background-color: navy;
+    }
+    ul.meniu>li>ul.submeniu {
+        visibility: hidden;
+    }
+    ul.meniu>li:hover>ul.submeniu {
+        visibility: visible;
+        background-color: navy;
+    }
+    ul.meniu li:hover {
+        background-color: blue;
+    }
+    .card {
+        display: flex;
+        padding: 5px;
+        background-clip: border-box;
+        background-color: #f9f9f9;
+        margin-bottom: 15px;
+        font-size: 50%;
+    }
+    .card #poza {
+        width: 20%;
+        height: 40%;
+    }
+    dl {
+        width: 100%;
+        overflow: auto;
+        background: lightgray;
+        padding: 0;
+        margin: 0
+    }
+    dt {
+        float: left;
+        width: 50%;
+        background: lightgray;
+        padding: 0;
+        margin: 0
+    }
+    dd {
+        float: left;
+        width: 50%;
+        background: lightgray;
+        padding: 0;
+        margin: 0
+    }
+}
+
+#galerie-statica {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+}
+
+#statica {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+#statica img {
+    width: 200px;
+    height: auto;
+}
+
+#statica a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 50px;
+}

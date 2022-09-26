@@ -1,0 +1,353 @@
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.exe
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.deps.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.dev.json
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.Manifest.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.xml
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\scopedcss\bundle\ProiectDAW.styles.css
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.genruntimeconfig.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Humanizer.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.exe
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.deps.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.dev.json
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Humanizer.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.AssemblyReference.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfoInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CoreCompileInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.Manifest.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.xml
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\scopedcss\bundle\ProiectDAW.styles.css
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.RazorTargetAssemblyInfo.cache
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.pdb
+C:\Users\AnaSt\Desktop\exemple\ProiectDAW\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.genruntimeconfig.cache
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\alexa\Desktop\ProiectDAW\ProiectDAW\ProiectDAW\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.exe
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.deps.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.dev.json
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Humanizer.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.AssemblyReference.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfoInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CoreCompileInputs.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.Manifest.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.xml
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\scopedcss\bundle\ProiectDAW.styles.css
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.RazorTargetAssemblyInfo.cache
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CopyComplete
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.pdb
+C:\Users\AnaSt\Desktop\exemple\ProGit\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.genruntimeconfig.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.exe
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.deps.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.dev.json
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Humanizer.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.Manifest.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.xml
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\scopedcss\bundle\ProiectDAW.styles.css
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.pdb
+C:\Users\alexa\Desktop\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.genruntimeconfig.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\appsettings.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.exe
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.deps.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.runtimeconfig.dev.json
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Humanizer.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.DAL.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Repositories.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\bin\Debug\net5.0\ProiectDAW.Services.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.AssemblyReference.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfoInputs.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.AssemblyInfo.cs
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CoreCompileInputs.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.Manifest.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\staticwebassets\ProiectDAW.StaticWebAssets.xml
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\scopedcss\bundle\ProiectDAW.styles.css
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.RazorTargetAssemblyInfo.cache
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.csproj.CopyComplete
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ref\ProiectDAW.dll
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.pdb
+C:\Users\alexa\Desktop\Facultate\Anul II\Sem I\Dezvoltarea Aplicatiilor Web ASP.NET\ProiectDAW\FINAL\ProiectDAW\ProiectDAW\obj\Debug\net5.0\ProiectDAW.genruntimeconfig.cache

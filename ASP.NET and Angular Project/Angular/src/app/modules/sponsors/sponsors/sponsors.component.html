@@ -1,0 +1,54 @@
+<div class="container">
+  <h1 class="title">
+    Sponsors
+  </h1>
+
+  <table mat-table [dataSource]="sponsors" class="mat-elevation-z8 table">
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> Sponsor Id</th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Sponsor Name</th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+
+
+    <ng-container matColumnDef="profile">
+      <th mat-header-cell *matHeaderCellDef> Profile</th>
+      <td class="see-profile" mat-cell *matCellDef="let element">
+        <mat-icon (click)="goToSponsorProfile(element.id)">
+          directions_sponsor
+        </mat-icon>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="edit">
+      <th mat-header-cell *matHeaderCellDef> Edit</th>
+      <td class="delete-action" mat-cell *matCellDef="let element">
+        <mat-icon (click)="addData(element)">
+          edit
+        </mat-icon>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="delete">
+      <th mat-header-cell *matHeaderCellDef> Delete</th>
+      <td class="delete-action" mat-cell *matCellDef="let element">
+        <mat-icon (click)="deleteSponsor(element)">
+          delete
+        </mat-icon>
+      </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <button mat-raised-button (click)="addData()" class="demo-button">
+    Add data
+  </button>
+</div>
+

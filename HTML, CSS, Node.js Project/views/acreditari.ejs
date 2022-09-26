@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lista Acreditari</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <style>
+        img {
+            width: 200px;
+            height: auto;
+            grid-area: img;
+        }
+        
+        #acred {
+            width: 50%;
+            border: 1px solid red;
+            display: grid;
+            grid-template-areas: "nume img" "pret img";
+        }
+        
+        p {
+            font-size: 30px;
+        }
+        
+        #nume {
+            grid-area: nume;
+        }
+        
+        #pret {
+            grid-area: pret;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation-bar">
+        <nav class="main nav">
+            <ul class="meniu">
+                <li>
+                    <a href="index.html"><img id="sigl" src="sigla.png" alt="sigla"></a>
+                </li>
+                <li><a class="link" href="stiri.html">Stiri</a></li>
+                <li><a class="link">Club</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="jucatori.html">Jucatori</a></li>
+                        <li><a class="link" href="stafftehnic.html">Staff tehnic</a></li>
+                        <li><a class="link" href="clasament.html">Clasament</a></li>
+                        <li><a class="link" href="acreditari_login.html">Acreditari presa</a></li>
+                    </ul>
+                </li>
+                <li><a class="link">Echipe</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="index.html">Prima echipa</a></li>
+                        <li><a class="link" href="validare.html">Verifica bilet</a></li>
+                        <li><a class="link" href="joc2.html">Joc: Gooool!</a></li>
+                        <li><a class="link" href="joc.html">Joc: Ghiceste numarul</a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="istorie.html">Istorie</a></li>
+                <li><a class="link">Galerie</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="galerie.html">Statica</a></li>
+                        <li><a class="link" href="galerieanimata.html">Animatie</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <article id="info">
+        <h1>Acreditari</h1>
+        <% for(i=0;i<acreditari.length;i++){%>
+            <div id="acred">
+                <p id="nume">Nume:
+                    <%=acreditari[i].acreditare%>
+                </p>
+                <p id="pret">Cod:
+                    <%=acreditari[i].cod%>
+                </p>
+                <img src="<%=acreditari[i].poza%>" alt="poza">
+            </div>
+            <%}%>
+
+    </article>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<div class="home">
+
+
+
+  <div class = "scris" *ngIf="isUserAuthenticated();" style="color:blue;">
+    {{"you are logged in"|uppercase}}
+  </div>
+  <div class = "scris" *ngIf="!isUserAuthenticated();" style="color:red;">
+    {{"you are not logged in"|uppercase}}
+  </div>
+
+  <ul>
+    <li *ngIf="!isUserAuthenticated()"><button class = "logout" routerLink="/login">Login</button></li>
+    <li *ngIf="isUserAuthenticated()"><button class="logout" (click)="logOut()">Log out</button></li>
+  </ul>
+
+
+</div>
+

@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding-top: 120px;
+    background-color: lightblue;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: navy;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav #sigl {
+    height: 120px;
+    width: 120px;
+}
+
+nav .link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    height: 100%;
+}
+
+ul.meniu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+ul img {
+    height: 100%;
+    width: 120px;
+    float: left;
+    background-color: navy;
+}
+
+ul.meniu>li:nth-child(n+2) {
+    flex-grow: 1;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: navy;
+}
+
+ul.meniu>li>ul.submeniu {
+    visibility: hidden;
+}
+
+ul.meniu>li:hover>ul.submeniu {
+    visibility: visible;
+    background-color: navy;
+}
+
+ul.meniu li:hover {
+    background-color: blue;
+}
+
+#container-animatie {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+#container-poze {
+    display: flex;
+    flex-flow: nowrap;
+    animation-name: slide;
+    animation-duration: 12s;
+    animation-delay: 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 20px;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0px;
+    }
+    4% {
+        margin-left: 0px;
+    }
+    11% {
+        margin-left: -1200px;
+    }
+    16.6% {
+        margin-left: -1200px;
+    }
+    28% {
+        margin-left: -2400px;
+    }
+    33.3% {
+        margin-left: -2400px;
+    }
+    45% {
+        margin-left: -3600px;
+    }
+    50% {
+        margin-left: -3600px;
+    }
+    70% {
+        margin-left: -4800px;
+    }
+    75% {
+        margin-left: -4800px;
+    }
+    93% {
+        margin-left: -6000px;
+    }
+    100% {
+        margin-left: -6000px;
+    }
+}

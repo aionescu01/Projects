@@ -1,0 +1,722 @@
+/*Tema 13. ​polinoame reprezentate ca tablouri unidimensionale (prin gradul polinomului si vectorulcoeficientilor).Se dau urmatoarele clase:
+- Clasa Monom(int grad, float coef)- Clasa Polinom(int nr_monoame, Monom *m)
+- Polinom_ireductibil : Polinom;- Polinom_reductibil : Polinom.
+Clasele derivate trebuie sa contina constructoi parametrizati (prin care sa seevidentieze transmiterea parametrilor catre constructorul din clasa de baza),
+destructor si o metoda care sa aplice criteriul lui Eisenstein de verificare aireductibilitatii polinoamelor.
+Afisarea unui polinom reductibil să fie făcutăși ca produs de 2 polinoame.*/
+
+#include <iostream>
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+using namespace std;
+
+class monom
+{
+private:
+    int grad;
+    float coef;
+
+public:
+    monom(float, int);
+    ~monom();
+    monom(monom &);
+    int getgrad()
+    {
+        return grad;
+    }
+    float getcoef()
+    {
+        return coef;
+    }
+    void setgrad(int g)
+    {
+        grad = g;
+    }
+    void setcoef(float c)
+    {
+        coef = c;
+    }
+    friend istream &operator>>(istream &in, monom &m);
+    friend ostream &operator<<(ostream &out, monom &m);
+    void afisare(ostream &out);
+    void citire(istream &in);
+    monom &operator=(monom &m);
+};
+
+monom::monom(float cf = 0, int gr = 0)
+{
+    this->coef = cf;
+    this->grad = gr;
+}
+
+monom::~monom()
+{
+    this->coef = 0;
+    this->grad = 0;
+}
+
+monom::monom(monom &)
+{
+    this->coef = coef;
+    this->grad = grad;
+}
+
+void monom::citire(istream &in)
+{
+    cout << "Introduceti coeficientul: ";
+    in >> coef;
+    cout << "Introduceti gradul: ";
+    in >> grad;
+}
+
+istream &operator>>(istream &in, monom &m)
+{
+    m.citire(in);
+    return in;
+}
+
+void monom::afisare(ostream &out)
+{
+    if (coef != 0)
+    {
+        if (grad > 0)
+            out << coef << "x^" << grad;
+        else
+            out << coef;
+    }
+}
+
+ostream &operator<<(ostream &out, monom &m)
+{
+    m.afisare(out);
+    return out;
+}
+
+monom &monom::operator=(monom &m)
+{
+    grad = m.grad;
+    coef = m.coef;
+    return m;
+}
+
+class polinom
+{
+protected:
+    int nr_monoame;
+    monom *m;
+    static int nr_polinoame;
+
+public:
+    friend class monom;
+
+    polinom();
+    polinom(int, monom *);
+    virtual ~polinom();
+    polinom(polinom &);
+    void setnrmonoame(int nr)
+    {
+        nr_monoame = nr;
+    }
+    int getnrmonoame()
+    {
+        return nr_monoame;
+    }
+    monom *getmonom()
+    {
+        return m;
+    }
+    void setmonom(monom *x)
+    {
+        m = x;
+    }
+    virtual void afisare(ostream &out);
+    virtual void citire(istream &in);
+    friend istream &operator>>(istream &, polinom &);
+    friend ostream &operator<<(ostream &, polinom &);
+    polinom &operator=(polinom &m);
+    friend float coefmaxim(monom *m);
+    friend bool eisenstein(int nr_monoame, monom *m);
+    static void numarPolinoame()
+    {
+        cout << "\nNumar de polinoame = " << nr_polinoame << endl;
+        return;
+    }
+    virtual void functie(polinom *&p, int nr, monom *m)
+    {
+        cout << "polinom";
+    }
+    friend void horner(int nr, monom *m);
+    void polnou()
+    {
+        nr_polinoame++;
+    }
+};
+int polinom::nr_polinoame;
+
+polinom::~polinom()
+{
+    nr_monoame = 0;
+    m = NULL;
+    delete m;
+}
+
+polinom::polinom()
+{
+
+    this->nr_monoame = 0;
+    this->m = new monom;
+}
+
+polinom::polinom(int nr, monom *m)
+{
+
+    this->nr_monoame = nr;
+    this->m = new monom[nr];
+}
+
+polinom::polinom(polinom &p)
+{
+    this->nr_monoame = p.nr_monoame;
+    this->m = new monom[p.nr_monoame + 1];
+    for (int i = 0; i <= p.nr_monoame; i++)
+        this->m[i] = p.m[i];
+}
+
+float coefmaxim(int nr_monoame, monom *m)
+{
+    float maxi = 0;
+    for (int i = 0; i <= nr_monoame; i++)
+        if (m[i].getcoef() > maxi)
+            maxi = m[i].getcoef();
+    return maxi;
+}
+
+bool prim(float x)
+{
+    int y = (int)(x);
+    for (int d = 2; d <= y / 2; d++)
+        if (y % d == 0)
+            return false;
+    return true;
+}
+
+bool eisenstein(int nr_monoame, monom *m)
+{
+
+    float max = coefmaxim(nr_monoame, m);
+    int cond = 0, ok;
+    for (int j = 2; j <= max; j++)
+    {
+        if (prim(j) == 1)
+        {
+            cond = 0;
+            ok = 1;
+
+            //cond 1 p | ai, pentru toți 0 ≤ i ≤ n-1,
+            for (int i = 0; i < nr_monoame; i++)
+            {
+                if ((int)(m[i].getcoef()) % j != 0)
+                    ok = 0;
+            }
+            if (ok == 1)
+                cond++;
+
+            //cond 2 p nu divide an,
+            if ((int)(m[nr_monoame].getcoef()) % j != 0)
+                cond++;
+
+            //cond 3 p2 nu divide a0
+            if ((int)(m[0].getcoef()) % (j * j) != 0)
+                cond++;
+
+            if (cond == 3)
+                return true; //ireductibil
+        }
+    }
+    return false; //reductibil
+}
+
+void polinom::citire(istream &in)
+{
+    float c;
+    cout << "Dati coeficientul maxim: ";
+    in >> nr_monoame;
+    m = new monom[nr_monoame + 1];
+    for (int i = nr_monoame; i >= 0; i--)
+    {
+        cout << "Introduceti coeficientul lui x^" << i << ": ";
+        cin >> c;
+        m[i].setcoef(c);
+        m[i].setgrad(i);
+    }
+}
+
+void polinom::afisare(ostream &out)
+{
+    cout << "\nPolinomul este: \n";
+    for (int i = nr_monoame; i >= 0; i--)
+    {
+        if (i != 0)
+        {
+            if (m[i - 1].getcoef() <= 0)
+                cout << m[i];
+            else
+                cout << m[i] << "+";
+        }
+        else
+            cout << m[i].getcoef();
+    }
+    cout << "\n\n";
+}
+
+istream &operator>>(istream &in, polinom &p)
+{
+    p.citire(in);
+    return in;
+}
+ostream &operator<<(ostream &out, polinom &p)
+{
+    p.afisare(out);
+    return out;
+}
+
+polinom &polinom::operator=(polinom &p)
+{
+    nr_monoame = p.nr_monoame;
+    m = p.m;
+    return p;
+}
+
+///preluat de pe http://www.crbond.com/download/misc/bairstow.c
+int precision_error_flag;
+double a[21], b[21], c[21], d[21];
+void find_poly_roots(int n)
+{
+
+    double r, s, dn, dr, ds, drn, dsn, eps;
+    int i, iter;
+
+    r = s = 0;
+    dr = 1.0;
+    ds = 0;
+    eps = 1e-14;
+    iter = 1;
+
+    while ((fabs(dr) + fabs(ds)) > eps)
+    {
+        if ((iter % 200) == 0)
+        {
+            r = (double)rand() / 16000.;
+        }
+        if ((iter % 500) == 0)
+        {
+            eps *= 10.0;
+            precision_error_flag = 1;
+            printf("Loss of precision\n");
+        }
+        b[1] = a[1] - r;
+        c[1] = b[1] - r;
+
+        for (i = 2; i <= n; i++)
+        {
+            b[i] = a[i] - r * b[i - 1] - s * b[i - 2];
+            c[i] = b[i] - r * c[i - 1] - s * c[i - 2];
+        }
+        dn = c[n - 1] * c[n - 3] - c[n - 2] * c[n - 2];
+        drn = b[n] * c[n - 3] - b[n - 1] * c[n - 2];
+        dsn = b[n - 1] * c[n - 1] - b[n] * c[n - 2];
+
+        if (fabs(dn) < 1e-16)
+        {
+            dn = 1;
+            drn = 1;
+            dsn = 1;
+        }
+        dr = drn / dn;
+        ds = dsn / dn;
+
+        r += dr;
+        s += ds;
+        iter++;
+    }
+    for (i = 0; i < n - 1; i++)
+        a[i] = b[i];
+    a[n] = s;
+    a[n - 1] = r;
+}
+///preluat de pe http://www.crbond.com/download/misc/bairstow.c
+float radacina(int nr, monom *m)
+{
+    int i, n, order = 0;
+    double tmp;
+
+    for (i = 0; i <= nr; i++)
+    {
+        a[i] = m[i].getcoef();
+        if (i == 0)
+        {
+            tmp = a[i];
+            a[i] = 1.0;
+        }
+        else
+            a[i] /= tmp;
+        d[i] = a[i];
+    }
+    b[0] = c[0] = 1.0;
+    n = order;
+    precision_error_flag = 0;
+    while (n > 2)
+    {
+        find_poly_roots(n);
+        n -= 2;
+    }
+    return (-1) * a[1];
+}
+//idee horner de pe https://www.geeksforgeeks.org/horners-method-polynomial-evaluation/
+void horner(int nr, monom *m)
+{
+    float rad = radacina(nr, m);
+
+    monom *v = new monom[nr];
+
+    int x = m[0].getcoef(), j = 0;
+    for (int i = 1; i <= nr; i++)
+    {
+        v[j].setcoef(x);
+        v[j].setgrad(j);
+        j++;
+        x = x * rad + m[i].getcoef();
+    }
+    cout << "\nDescompunerea in produs de 2 polinoame este: \n";
+    if (rad < 0)
+        cout << "(x+" << (-1) * rad << ')';
+    else if (rad == 0)
+        cout << 'x';
+    else
+        cout << "(x" << rad << ')';
+    cout << '(';
+    for (int i = nr - 1; i >= 0; i--)
+    {
+        if (i != 0)
+        {
+            if (v[i - 1].getcoef() <= 0)
+                cout << v[i];
+            else
+                cout << v[i] << "+";
+        }
+        else
+            cout << v[i].getcoef();
+    }
+    cout << ')';
+}
+
+class polinom_ireductibil : public polinom
+{
+private:
+    bool ireductibil;
+    static int nr_ireductibile;
+
+public:
+    polinom_ireductibil(int, monom *);
+    ~polinom_ireductibil();
+    polinom_ireductibil(polinom_ireductibil &p);
+    void afisare(ostream &out);
+    friend ostream &operator<<(ostream &out, polinom_ireductibil &p);
+    void functie(polinom *&p, int nr, monom *m);
+    polinom_ireductibil &operator=(polinom_ireductibil &m);
+    void citire(istream &in);
+    friend istream &operator>>(istream &in, polinom_ireductibil &p);
+    bool getbool()
+    {
+        return ireductibil;
+    }
+    static void numarireductibile()
+    {
+        cout << "\nNumar de polinoame ireductibile = " << nr_ireductibile / 3 << endl;
+        return;
+    }
+};
+int polinom_ireductibil::nr_ireductibile;
+
+polinom_ireductibil::polinom_ireductibil(int nr = 0, monom *m = NULL) : polinom(nr, m)
+{
+    ireductibil = true;
+    nr_ireductibile++;
+}
+
+void polinom_ireductibil::functie(polinom *&p, int nr, monom *m)
+{
+    p = new polinom_ireductibil;
+    p->setmonom(m);
+    p->setnrmonoame(nr);
+}
+
+polinom_ireductibil::polinom_ireductibil(polinom_ireductibil &p) : polinom(p)
+{
+    ireductibil = false;
+    nr_ireductibile++;
+}
+
+polinom_ireductibil::~polinom_ireductibil()
+{
+}
+
+polinom_ireductibil &polinom_ireductibil::operator=(polinom_ireductibil &m)
+{
+    this->setnrmonoame(m.getnrmonoame());
+    this->setmonom(m.getmonom());
+    return m;
+}
+
+istream &operator>>(istream &in, polinom_ireductibil &p)
+{
+    p.citire(in);
+    return in;
+}
+
+void polinom_ireductibil::citire(istream &in)
+{
+    cout << "Citire polinom ireductibil:\n";
+    polinom::citire(in);
+}
+
+void polinom_ireductibil::afisare(ostream &out)
+{
+    out << "\nPolinom ireductibil";
+    polinom::afisare(out);
+}
+
+ostream &operator<<(ostream &out, polinom_ireductibil &p)
+{
+    p.afisare(out);
+    return out;
+}
+
+class polinom_reductibil : public polinom
+{
+private:
+    bool ireductibil;
+    static int nr_reductibile;
+
+public:
+    polinom_reductibil(int, monom *);
+    polinom_reductibil(polinom_reductibil &p);
+    ~polinom_reductibil();
+    void afisare(ostream &out);
+    friend ostream &operator<<(ostream &out, polinom_reductibil &p);
+    void operator=(polinom &p);
+    void functie(polinom *&p, int nr, monom *m);
+    polinom_reductibil &operator=(polinom_reductibil &m);
+    friend istream &operator>>(istream &in, polinom_reductibil &p);
+    void citire(istream &in);
+    bool getbool()
+    {
+        return ireductibil;
+    }
+    static void numarreductibile()
+    {
+        cout << "\nNumar de polinoame reductibile = " << nr_reductibile / 3 << endl;
+        return;
+    }
+    polinom &operator=(polinom *&m);
+};
+int polinom_reductibil::nr_reductibile;
+
+polinom_reductibil::polinom_reductibil(int nr = 0, monom *m = NULL) : polinom(nr, m)
+{
+    ireductibil = false;
+    nr_reductibile++;
+}
+
+polinom_reductibil::~polinom_reductibil()
+{
+}
+
+polinom_reductibil::polinom_reductibil(polinom_reductibil &p) : polinom(p)
+{
+    ireductibil = false;
+    nr_reductibile++;
+}
+
+void polinom_reductibil::citire(istream &in)
+{
+    cout << "Citire polinom reductibil:\n";
+    polinom::citire(in);
+}
+
+void polinom_reductibil::afisare(ostream &out)
+{
+    out << "\nPolinom reductibil";
+    polinom::afisare(out);
+}
+
+istream &operator>>(istream &in, polinom_reductibil &p)
+{
+    p.citire(in);
+    return in;
+}
+
+ostream &operator<<(ostream &out, polinom_reductibil &p)
+{
+    p.afisare(out);
+    return out;
+}
+
+polinom_reductibil &polinom_reductibil::operator=(polinom_reductibil &m)
+{
+    this->setnrmonoame(m.getnrmonoame());
+    this->setmonom(m.getmonom());
+    return m;
+}
+
+polinom &polinom_reductibil::operator=(polinom *&m)
+{
+    this->setnrmonoame(m->getnrmonoame());
+    this->setmonom(m->getmonom());
+    return *m;
+}
+
+void polinom_reductibil::functie(polinom *&p, int nr, monom *m)
+{
+    p = new polinom_reductibil;
+    p->setmonom(m);
+    p->setnrmonoame(nr);
+}
+
+void setare(polinom *&x)
+{
+    //upcasting
+    polinom *a = new polinom;
+    if (eisenstein(x->getnrmonoame(), x->getmonom()) == 1)
+    {
+        a = new polinom_ireductibil;
+        a->functie(a, x->getnrmonoame(), x->getmonom());
+        x = new polinom_ireductibil;
+        x = a;
+    }
+    else
+    {
+        a = new polinom_reductibil;
+        a->functie(a, x->getnrmonoame(), x->getmonom());
+        x = new polinom_reductibil;
+        x = a;
+    }
+}
+
+void menu()
+{
+    polinom **v;
+    polinom *x = new polinom;
+    polinom_reductibil *a = (polinom_reductibil *)new polinom;
+    int option;
+    bool citit = 0;
+    option = 0;
+
+    do
+    {
+
+        cout << "\n Ionescu Alexandru 141 - Proiect 2 - Tema 13: \n";
+        cout << "\n\t MENIU:";
+        cout << "\n===========================================\n";
+        cout << "\n";
+        cout << "1. Citire polinom";
+        cout << "\n";
+        cout << "2. Citire si afisare n polinoame";
+        cout << "\n";
+        cout << "3. Afisare polinom";
+        cout << "\n";
+        cout << "4. Afisare polinom ca produs de 2 polinoame (doar daca polinomul este reductibil)";
+        cout << "\n";
+        cout << "5. Afisare polinom fara afisarea tipului (reductibil/ireductibil) (downcasting)";
+        cout << "\n";
+        cout << "6. Numar polinoame";
+        cout << "\n";
+        cout << "0. Iesire.";
+        cout << "\n";
+        cout << "\nIntroduceti numarul actiunii: ";
+        cin >> option;
+
+        if (option == 1)
+        {
+            cin >> *x;
+            *a = x;
+            setare(x);
+            citit = 1;
+            x->polnou();
+        }
+        if (option == 2)
+        {
+
+            int n;
+            cout << "Introduceti numarul de obiecte citite: ";
+            cin >> n;
+
+            v = new polinom *[n];
+            for (int i = 0; i < n; i++)
+            {
+                v[i]->polnou();
+                v[i] = new polinom;
+                cin >> *v[i];
+                setare(v[i]);
+            }
+            cout << "\nAfisam polinoamele citite anterior:\n";
+            for (int i = 0; i < n; i++)
+            {
+                cout << "\n"
+                     << *v[i];
+                cout << "--------------------------\n";
+            }
+        }
+        if (option == 3)
+        {
+            if (citit == 1)
+                cout << *x;
+            else
+                cout << "Nu s-a citit polinomul!";
+        }
+        if (option == 4)
+        {
+            if (citit == 1)
+            {
+                if (eisenstein(x->getnrmonoame(), x->getmonom()) == 1)
+                    cout << "Polinom ireductibil, nu poate fi descompus in produs de 2 polinoame!\n";
+
+                else
+                    horner(x->getnrmonoame(), x->getmonom());
+            }
+            else
+                cout << "Nu s-a citit polinomul!";
+        }
+        if (option == 5)
+        {
+            if (citit == 1)
+                cout << *a;
+            else
+                cout << "Nu s-a citit polinomul!";
+        }
+        if (option == 6)
+        {
+            polinom::numarPolinoame();
+            polinom_ireductibil::numarireductibile();
+            polinom_reductibil::numarreductibile();
+        }
+        if (option == 0)
+        {
+            cout << "\nEXIT!\n";
+        }
+        if (option < 0 || option > 6)
+        {
+            cout << "\nSelectie invalida\n";
+        }
+        cout << "\n";
+        system("pause");
+        system("cls");
+    } while (option != 0);
+}
+
+int main()
+{
+    menu();
+    return 0;
+}

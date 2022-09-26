@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+
+<head>
+    <title>Validare Bilet</title>
+    <link rel="icon" href="sigla.png">
+    <link rel="stylesheet" href="validare.css">
+    <script type="text/javascript" src="validare.js" defer></script>
+</head>
+
+
+
+<body>
+
+    <div class="navigation-bar">
+        <nav class="main nav">
+            <ul class="meniu">
+                <li>
+                    <a href="index.html"><img id="sigl" src="sigla.png" alt="sigla"></a>
+                </li>
+                <li><a class="link" href="stiri.html">Stiri</a></li>
+                <li><a class="link">Club</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="jucatori.html">Jucatori</a></li>
+                        <li><a class="link" href="stafftehnic.html">Staff tehnic</a></li>
+                        <li><a class="link" href="clasament.html">Clasament</a></li>
+                    </ul>
+                </li>
+                <li><a class="link">Echipe</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="index.html">Prima echipa</a></li>
+                        <li><a class="link" href="validare.html">Verifica bilet</a></li>
+                        <li><a class="link" href="joc2.html">Joc: Gooool!</a></li>
+                        <li><a class="link" href="joc.html">Joc: Ghiceste numarul</a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="istorie.html">Istorie</a></li>
+                <li><a class="link">Galerie</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="galerie.html">Statica</a></li>
+                        <li><a class="link" href="galerieanimata.html">Animatie</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="card">
+        <form autocomplete="off"><input type="text" id="inp" name="fname" onfocus="this.value=''"></form>
+        <button id="validare">Valideaza</button>
+        <br>
+        <span id="validitate"></span>
+    </div>
+
+</body>
+
+</html>

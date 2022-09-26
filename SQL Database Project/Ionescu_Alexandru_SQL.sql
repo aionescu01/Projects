@@ -1,0 +1,783 @@
+--exercitiul 4
+
+CREATE TABLE CLIENT(
+cod_client number(6) constraint pkey_clnt1 primary key,
+nume varchar2(25) not null,
+prenume varchar2(25) not null,
+nr_telefon varchar2(12) not null,
+apelativ varchar2(5),
+data_nastere date not null,
+nota number(3,1) not null
+);
+
+CREATE TABLE masina(
+cod_masina varchar2(10) CONSTRAINT pkey_mas1 PRIMARY KEY,
+data_achizitionare date not null,
+data_revizie_urm date not null,
+marca varchar2(20) not null,
+model varchar2(20) not null
+);
+
+CREATE TABLE angajat(
+cod_angajat number(5) CONSTRAINT pkey_ang1 PRIMARY KEY,
+nume varchar2(25) not null,
+prenume varchar2(25) not null,
+nr_telefon varchar2(12) not null,
+tip_angajat varchar2(25) not null,
+data_nastere date not null,
+data_angajare date not null,
+salariu number(6) not null,
+numar_masina varchar2(12),
+dispecerat varchar2(25),
+CONSTRAINT unic unique (numar_masina),
+CONSTRAINT fkey_masina FOREIGN KEY (numar_masina) REFERENCES masina(cod_masina)
+);
+
+CREATE TABLE locatii(
+cod_locatie number(4) CONSTRAINT pkey_loc PRIMARY KEY,
+localitate varchar2(20) not null,
+judet varchar2(20) not null
+);
+
+CREATE TABLE cursa(
+cod_cursa number(6) CONSTRAINT pkey_cursa PRIMARY KEY,
+cod_masina varchar2(12) CONSTRAINT fkey_masina2 REFERENCES angajat(numar_masina) not null,
+cod_sofer number(5) CONSTRAINT fkey_sofer2 REFERENCES angajat(cod_angajat) not null,
+cod_client number(6) CONSTRAINT fkey_client2 REFERENCES client(cod_client) not null,
+adresa_client varchar2(35) not null,
+destinatie varchar2(35) not null,
+cod_locatie number(4) CONSTRAINT fkey_loc1 REFERENCES locatii(cod_locatie) not null
+);
+
+CREATE TABLE detalii_cursa(
+cod_cursa number(6) CONSTRAINT pkey_det_cursa PRIMARY KEY,
+CONSTRAINT fkey_cod_cursa FOREIGN KEY (cod_cursa) REFERENCES cursa(cod_cursa),
+data_cursa date not null,
+nota_sofer number(2) not null,
+nota_client number(2) not null
+);
+
+CREATE TABLE istoric_sofer(
+cod_sofer number(6) CONSTRAINT pkey_ist_sof PRIMARY KEY,
+CONSTRAINT fkey_cod_sof FOREIGN KEY (cod_sofer) REFERENCES angajat(cod_angajat),
+nota number(4,2) not null,
+numar_curse number(5) not null
+);
+
+CREATE TABLE discount(
+nota_discount number(2)CONSTRAINT pkey_disc PRIMARY KEY not null,
+cod_discount number(2)
+);
+
+CREATE TABLE factura(
+cod_factura number(6) CONSTRAINT pkey_fact PRIMARY KEY,
+cod_dispecer number(5) 
+CONSTRAINT fkey_disp REFERENCES angajat(cod_angajat) not null,
+cod_cursa number(6) CONSTRAINT fkey_crs REFERENCES cursa(cod_cursa) not null,
+pret number(5,2) not null
+);
+
+
+CREATE TABLE lucreaza_in(
+cod_angajat number(5) CONSTRAINT fkey_ang references angajat(cod_angajat),
+cod_locatie number(5) CONSTRAINT fkey_loc references locatii(cod_locatie),
+CONSTRAINT pk_compus PRIMARY KEY(cod_angajat,cod_locatie)
+);
+
+--exercitiul 5
+
+INSERT INTO masina
+VALUES('B 24 TAX', TO_DATE('1-6-2008','dd-mm-yyyy'), TO_DATE('20-3-2022','dd-mm-yyyy'),'Dacia','Logan');
+INSERT INTO masina
+VALUES('B 124 PEL', TO_DATE('20-11-2010','dd-mm-yyyy'), TO_DATE('3-1-2022','dd-mm-yyyy'),'Skoda','Octavia');
+INSERT INTO masina
+VALUES('IF 745 RBE', TO_DATE('13-12-2014','dd-mm-yyyy'), TO_DATE('15-12-2021','dd-mm-yyyy'),'Renault','Megane');
+INSERT INTO masina
+VALUES('B 123 TAX', TO_DATE('1-10-2020','dd-mm-yyyy'), TO_DATE('7-5-2022','dd-mm-yyyy'),'Dacia','Logan');
+INSERT INTO masina
+VALUES('B 167 TAX', TO_DATE('1-10-2020','dd-mm-yyyy'), TO_DATE('20-6-2021','dd-mm-yyyy'),'Dacia','Logan');
+INSERT INTO masina
+VALUES('IS 24 FLV', TO_DATE('1-5-2010','dd-mm-yyyy'), TO_DATE('1-5-2022','dd-mm-yyyy'),'Chevrolet','Aveo');
+
+
+CREATE SEQUENCE ID_ANG
+INCREMENT by 1
+START WITH 100
+MAXVALUE 1000
+NOCYCLE;
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Marinescu','Cristian','0742536126','Sofer',TO_DATE('21-3-1973','dd-mm-yyyy'),TO_DATE('8-9-2017','dd-mm-yyyy'),3000,'B 24 TAX',NULL
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Petre','Ionel','0723548215','Sofer',TO_DATE('27-8-1969','dd-mm-yyyy'),TO_DATE('1-10-2018','dd-mm-yyyy'),3200,'B 124 PEL',NULL
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Pop','Alina','0731446094','Dispecer',TO_DATE('1-9-1990','dd-mm-yyyy'),TO_DATE('15-1-2018','dd-mm-yyyy'),2500,NULL,'Titan'
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Georgescu','Damian','0732989824','Dispecer',TO_DATE('23-11-1987','dd-mm-yyyy'),TO_DATE('16-6-2016','dd-mm-yyyy'),2500,NULL,'Titan'
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Oprea','Teohari','0244994900','Dispecer',TO_DATE('12-12-1988','dd-mm-yyyy'),TO_DATE('8-2-2020','dd-mm-yyyy'),2500,NULL,'Dristor'
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Dragoi','Rebeca','0759330571','Sofer',TO_DATE('17-7-1978','dd-mm-yyyy'),TO_DATE('22-11-2017','dd-mm-yyyy'),3200,'IF 745 RBE',NULL
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Marin','Flavius','0749382571','Sofer',TO_DATE('7-7-1991','dd-mm-yyyy'),TO_DATE('7-9-2019','dd-mm-yyyy'),3000,'IS 24 FLV',NULL
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Mocanu','Vlad','0756256698','Dispecer',TO_DATE('10-2-1981','dd-mm-yyyy'),TO_DATE('8-4-2021','dd-mm-yyyy'),2200,NULL,'Dristor'
+);
+INSERT INTO ANGAJAT VALUES(
+ID_ANG.NEXTVAL,'Georgescu','Matei','0756854824','Dispecer',TO_DATE('23-11-1977','dd-mm-yyyy'),TO_DATE('16-6-2015','dd-mm-yyyy'),2700,NULL,'Titan'
+);
+
+CREATE SEQUENCE ID_CLIENT
+INCREMENT by 1
+START WITH 100
+MAXVALUE 1000
+NOCYCLE;
+INSERT INTO CLIENT VALUES(
+ID_CLIENT.NEXTVAL,'Martinescu','Vali','0724585435','Dl.',TO_DATE('27-11-2000','dd-mm-yyyy'),7
+);
+INSERT INTO client VALUES(
+ID_CLIENT.NEXTVAL,'Popescu','Andrei','0213453567',NULL,TO_DATE('12-4-1998','dd-mm-yyyy'),8
+);
+INSERT INTO client VALUES(
+ID_CLIENT.NEXTVAL,'Mirea','Alexandra','0736459294','Dna.',TO_DATE('13-5-1988','dd-mm-yyyy'),10
+);
+INSERT INTO client VALUES(
+ID_CLIENT.NEXTVAL,'Ilarie','David','0762469075','Dl.',TO_DATE('1-5-1988','dd-mm-yyyy'),9
+);
+INSERT INTO client VALUES(
+ID_CLIENT.NEXTVAL,'Sima','Cezar','0216560666','Dl.',TO_DATE('24-9-1968','dd-mm-yyyy'),6
+);
+INSERT INTO client VALUES(
+ID_CLIENT.NEXTVAL,'Petrea','Andreea','0213453567','Dra.',TO_DATE('30-4-1992','dd-mm-yyyy'),9
+);
+
+
+INSERT INTO locatii
+VALUES(100,'Bucuresti','Bucuresti');
+INSERT INTO locatii
+VALUES(200,'Cluj-Napoca','Cluj');
+INSERT INTO locatii
+VALUES(300,'Timisoara','Timis');
+INSERT INTO locatii
+VALUES(400,'Oradea','Bihor');
+INSERT INTO locatii
+VALUES(500,'Iasi','Iasi');
+INSERT INTO locatii
+VALUES(600,'Alexandria','Teleorman');
+
+CREATE SEQUENCE ID_CURSA
+INCREMENT by 1
+START WITH 1
+MAXVALUE 1000
+NOCYCLE;
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'B 24 TAX',101,101,'Bulevardul Unirii 5','Calea Victoriei 118',100);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'B 124 PEL',102,101,'Bulevardul Dacia 141','Bulevardul Libertatii 16',100);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'B 24 TAX',101,102,'Aleea Privighetorilor 65','Strada Polona 45',100);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'IF 745 RBE',106,105,'Aleea Eprubetei 23','Strada Fizicienilor 55',100);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'B 24 TAX',101,103,'Strada Toamnei 2','Strada Beirut 15',100);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'IF 745 RBE',106,104,'Strada Caraiman 13','Calea Motilor 118',200);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'IF 745 RBE',106,104,'Strada Spartacus 3','Strada Tudor Vladimirescu 111',400);
+INSERT INTO cursa
+VALUES(ID_CURSA.NEXTVAL,'B 124 PEL',102,105,'Strada Daliei 22','Strada Zorile 75',300);
+INSERT INTO cursa 
+VALUES(ID_CURSA.NEXTVAL,'B 24 TAX',101,101,'Bulevardul Dacia 141','Bulevardul Basarabia 45',100);
+
+CREATE SEQUENCE ID_DET
+INCREMENT by 1
+START WITH 1
+MAXVALUE 1000
+NOCYCLE;
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('7-4-2021','dd-mm-yyyy'),8,10);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('8-4-2021','dd-mm-yyyy'),6,7);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('10-4-2021','dd-mm-yyyy'),7,9);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('10-4-2021','dd-mm-yyyy'),9,9);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('10-4-2021','dd-mm-yyyy'),8,8);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('21-8-2020','dd-mm-yyyy'),8,8);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('5-7-2020','dd-mm-yyyy'),9,9);
+INSERT INTO detalii_cursa
+VALUES(ID_DET.NEXTVAL,TO_DATE('8-1-2020','dd-mm-yyyy'),9,7);
+
+INSERT INTO istoric_sofer
+VALUES(101, 7.66, 3);
+INSERT INTO istoric_sofer
+VALUES(102, 8, 1);
+INSERT INTO istoric_sofer
+VALUES(106, 7, 1);
+INSERT INTO istoric_sofer
+VALUES(107, 10, 0);
+
+INSERT INTO discount
+VALUES(10,10);
+INSERT INTO discount
+VALUES(9,7);
+INSERT INTO discount
+VALUES(8,5);
+INSERT INTO discount
+VALUES(7,2);
+INSERT INTO discount
+VALUES(6,1);
+INSERT INTO discount
+VALUES(5,0);
+INSERT INTO discount
+VALUES(4,0);
+INSERT INTO discount
+VALUES(3,0);
+INSERT INTO discount
+VALUES(2,0);
+INSERT INTO discount
+VALUES(1,0);
+INSERT INTO discount
+VALUES(0,0);
+
+CREATE SEQUENCE ID_FACT
+INCREMENT by 1
+START WITH 1
+MAXVALUE 1000
+NOCYCLE;
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,105,2,34);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,103,3,51.3);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,104,4,21.1);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,103,5,12.1);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,103,6,60);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,103,7,20);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,105,8,40);
+INSERT INTO factura
+VALUES(ID_FACT.NEXTVAL,104,9,60);
+
+
+INSERT INTO lucreaza_in
+VALUES(101,100);
+INSERT INTO lucreaza_in
+VALUES(102,100);
+INSERT INTO lucreaza_in
+VALUES(107,300);
+INSERT INTO lucreaza_in
+VALUES(106,100);
+INSERT INTO lucreaza_in
+VALUES(101,200);
+INSERT INTO lucreaza_in
+VALUES(106,200);
+INSERT INTO lucreaza_in
+VALUES(106,400);
+INSERT INTO lucreaza_in
+VALUES(107,400);
+INSERT INTO lucreaza_in
+VALUES(107,500);
+INSERT INTO lucreaza_in
+VALUES(106,500);
+
+--exercitiul 6
+--Creati o procedura care, la executie, afiseaza toti angajatii si, daca anagajatul este sofer, afiseaza orasele in care poate conduce: 
+CREATE OR REPLACE PROCEDURE ex6 
+IS
+TYPE tablou_imbricat IS TABLE OF NUMBER;
+TYPE tablou_indexat IS TABLE OF NUMBER INDEX BY PLS_INTEGER;
+
+coduri_locatii tablou_imbricat := tablou_imbricat();
+coduri_angajati tablou_indexat;
+
+cod_ang NUMBER(4);
+nr_ang NUMBER(3);
+nume angajat.nume%type;
+prenume angajat.prenume%type;
+oras locatii.localitate%type;
+rol_ang angajat.tip_angajat%type;
+BEGIN 
+
+SELECT count(*) into nr_ang from angajat;
+SELECT cod_angajat bulk collect into coduri_angajati from angajat;
+
+for a in coduri_angajati.FIRST..coduri_angajati.LAST LOOP
+SELECT nume,prenume,tip_angajat INTO nume,prenume,rol_ang FROM angajat WHERE cod_angajat=coduri_angajati(a);
+cod_ang:=coduri_angajati(a);
+SELECT cod_locatie bulk collect into coduri_locatii from lucreaza_in where cod_angajat=cod_ang;
+
+DBMS_OUTPUT.PUT_LINE('Angajatul '||nume||' '||prenume||' cu codul '||cod_ang||':');
+if rol_ang='Sofer' then
+if coduri_locatii.count>0 then
+DBMS_OUTPUT.PUT_LINE('Lucreaza in orasele:');
+FOR i IN coduri_locatii.FIRST..coduri_locatii.LAST LOOP
+SELECT localitate INTO oras FROM locatii where cod_locatie=coduri_locatii(i);
+DBMS_OUTPUT.PUT_LINE(oras);
+END LOOP;
+else DBMS_OUTPUT.PUT_LINE('Nu poate lucra in nici un oras');
+end if;
+else DBMS_OUTPUT.PUT_LINE('Nu este sofer');
+end if;
+DBMS_OUTPUT.NEW_LINE;
+
+END LOOP;
+
+END;
+/
+EXECUTE ex6;
+
+
+--exercitiul 7
+--Creati o procedura care, la executie, afiseaza toate masinile, soferul lor si nr de curse facute (daca au):
+CREATE OR REPLACE PROCEDURE ex7 IS
+nr_curse NUMBER(4);
+cursor masina_cursor is
+select cod_masina, marca, model
+from masina; 
+CURSOR angajat_cursor ( cod_masina masina.cod_masina%type) IS
+select nume, prenume, salariu
+from angajat
+where numar_masina = cod_masina;
+BEGIN
+for m in masina_cursor loop
+DBMS_OUTPUT.PUT_LINE('--------------------------------------------------------');
+DBMS_OUTPUT.PUT_LINE ('Masina '||m.cod_masina||' '||m.marca||' '||m.model);
+DBMS_OUTPUT.PUT_LINE('--------------------------------------------------------');
+SELECT count(*) into nr_curse from cursa where cod_masina=m.cod_masina;
+if nr_curse =0 then
+DBMS_OUTPUT.PUT_LINE( 'Aceasta masina nu a facut curse');
+else for a in angajat_cursor(m.cod_masina) loop
+DBMS_OUTPUT.PUT_LINE('Sofer: ' || a.nume || ' ' || a.prenume || ', Numar curse: ' || nr_curse);
+DBMS_OUTPUT.PUT_LINE('--------------------------------------------------------');
+end loop;
+end if;
+DBMS_OUTPUT.NEW_LINE;
+end loop;
+end;
+/
+EXECUTE ex7;
+
+
+--Exercitiul 8
+--Creati o functie care primeste ca parametru numele angajatului si afiseaza detalii despre acesta si in functie de tipul
+--de angajat, numarul masinii, numarul de curse, nr de telefon si masina sau dispeceratul si numarul de facturi emise: 
+    CREATE OR REPLACE FUNCTION ex8
+    (nume_ang IN angajat.nume%type)
+    RETURN VARCHAR2
+    IS
+    rezultat VARCHAR2(200);
+    cod_ang angajat.cod_angajat%type;
+    prenume angajat.prenume%type;
+    tip_ang angajat.tip_angajat%type;
+    sal angajat.salariu%type;
+    nr_masina angajat.numar_masina%type;
+    dispecerat angajat.dispecerat%type;
+    nr NUMBER(4);
+    oras locatii.localitate%type;
+    nr_telefon angajat.nr_telefon%type;
+    nota istoric_sofer.nota%type;
+    marca masina.marca%type;
+    model masina.model%type;
+    BEGIN
+        BEGIN
+        select cod_angajat, prenume, tip_angajat, salariu, numar_masina, dispecerat
+        into cod_ang,prenume,tip_ang,sal,nr_masina,dispecerat
+        from angajat
+        where upper(nume_ang) = upper(nume);
+        EXCEPTION
+        WHEN NO_DATA_FOUND 
+            THEN 
+            DBMS_OUTPUT.PUT_LINE('Angajatul nu exista');
+            RAISE_APPLICATION_ERROR (-20000,'Angajatul nu exista');
+        END;
+    rezultat:=rezultat||nume_ang||' '||prenume||', '||tip_ang||', salariu '||CAST(sal as VARCHAR2);
+    if tip_ang='Sofer' then
+    SELECT count(*) INTO nr FROM cursa where cod_sofer=cod_ang group by cod_sofer;      
+    SELECT a.nr_telefon, i.nota, m.marca, m.model into nr_telefon, nota, marca, model
+    from angajat a join istoric_sofer i on a.cod_angajat=i.cod_sofer join masina m on a.numar_masina=m.cod_masina
+    where cod_ang=a.cod_angajat;
+    
+    rezultat:=rezultat||', numar masina '||nr_masina||', nr curse '||CAST(nr as VARCHAR2)||', nr telefon '||nr_telefon
+    ||', nota sofer '||nota||', masina '||marca||' '||model;
+
+    elsif tip_ang='Dispecer' then
+    SELECT count(*) INTO nr FROM factura where cod_dispecer=cod_ang group by cod_dispecer;
+    rezultat:=rezultat||', dispecerat '||dispecerat||', nr facturi '||CAST(nr as VARCHAR2);
+    else RETURN 'Angajatul nu este sofer sau dispecer';
+    end if;
+    
+    RETURN rezultat;
+    EXCEPTION
+    WHEN NO_DATA_FOUND THEN    
+        DBMS_OUTPUT.PUT_LINE('Angajatul nu are curse realizate sau facturi emise');
+        RAISE_APPLICATION_ERROR (-20001,'Angajatul nu are curse realizate sau facturi emise');
+    WHEN TOO_MANY_ROWS THEN
+        DBMS_OUTPUT.PUT_LINE('Mai multi angajati cu acelasi nume');
+        RAISE_APPLICATION_ERROR (-20002, 'Mai multi angajati cu acelasi nume');
+    END;
+    /
+    BEGIN
+    DBMS_OUTPUT.PUT_LINE(ex8('Pop'));
+    END;
+    /
+    BEGIN
+    DBMS_OUTPUT.PUT_LINE(ex8('Marinescu'));
+    END;
+    /
+    BEGIN
+    DBMS_OUTPUT.PUT_LINE(ex8('Georgescu'));
+    END;
+    /
+    BEGIN
+    DBMS_OUTPUT.PUT_LINE(ex8('Marin'));
+    END;
+    /
+    BEGIN
+    DBMS_OUTPUT.PUT_LINE(ex8('Stefanescu'));
+    END;
+    /
+    
+--Exercitiul 9 
+--Creati o procedura care primeste ca parametru un nume de strada si afiseaza detalii din mai multe tabele despre cursa, masina sau sofer:
+CREATE OR REPLACE PROCEDURE ex9
+(adresa_c IN cursa.adresa_client%type)
+AS
+id_cursa cursa.cod_cursa%type; 
+cod_sofer cursa.cod_sofer%type; 
+v_adresa cursa.adresa_client%type;
+destinatie cursa.adresa_client%type; 
+cod_loc cursa.cod_locatie%type; 
+pret factura.pret%type;
+v_masina masina.cod_masina%type; 
+marca masina.marca%type; 
+v_model masina.model%type; 
+nota_sofer detalii_cursa.nota_sofer%type; 
+localit locatii.localitate%type; 
+nume angajat.nume%type; 
+prenume angajat.prenume%type;
+BEGIN
+SELECT cod_cursa into id_cursa 
+from cursa where UPPER(adresa_client) LIKE '%'||UPPER(adresa_c)||'%'; 
+SELECT c.cod_sofer,c.adresa_client,c.destinatie,c.cod_locatie,f.pret,a.numar_masina,a.nume,a.prenume,
+m.marca,m.model, d.nota_sofer, l.localitate into cod_sofer,v_adresa,destinatie,cod_loc,pret,v_masina,nume,prenume,
+marca,v_model,nota_sofer,localit from cursa c join factura f on c.cod_cursa=f.cod_cursa join angajat a on
+c.cod_sofer=a.cod_angajat join masina m on a.numar_masina=m.cod_masina join detalii_cursa d on d.cod_cursa=c.cod_cursa
+join locatii l on l.cod_locatie=c.cod_locatie
+where c.cod_cursa=id_cursa; 
+DBMS_OUTPUT.PUT_LINE('Cursa ' || id_cursa || ' din orasul '|| localit || ' de la adresa '|| v_adresa ||' la adresa '|| 
+destinatie || chr(10)||' a fost facuta cu masina '|| marca ||' '|| v_model ||', soferul a primit nota '|| nota_sofer
+|| ' iar pretul cursei a fost '|| pret);
+EXCEPTION
+WHEN NO_DATA_FOUND THEN
+    DBMS_OUTPUT.PUT_LINE('Cursa care porneste de la adresa specificata nu exista');
+    RAISE_APPLICATION_ERROR (-20000,'Cursa care porneste de la adresa specificata nu exista');
+WHEN TOO_MANY_ROWS THEN
+    DBMS_OUTPUT.PUT_LINE('Mai multe curse cu aceeasi locatie, dati o locatie mai specifica');
+    RAISE_APPLICATION_ERROR (-20001, 'Mai multe curse cu aceeasi locatie, dati o locatie mai specifica');
+END;
+/
+EXECUTE ex9('Unirii');
+EXECUTE ex9('Dacia');
+EXECUTE ex9('Rahovei');
+
+
+--exercitiul 10
+--Creati un trigger pentru actualizare automata a notei soferului si a clientului dupa o cursa:
+
+CREATE OR REPLACE TRIGGER trig_ex10
+AFTER INSERT OR UPDATE on detalii_cursa 
+DECLARE 
+cursor client_cursor is
+SELECT c.cod_client cod,avg(d.nota_client) nota
+from detalii_cursa d join cursa c on d.cod_cursa=c.cod_cursa
+group by c.cod_client;
+
+cursor soferi_cursor is
+SELECT c.cod_sofer cod,avg(d.nota_sofer) nota
+from detalii_cursa d join cursa c on d.cod_cursa=c.cod_cursa
+group by c.cod_sofer;
+nr_curse istoric_sofer.numar_curse%type;
+
+BEGIN
+for s in soferi_cursor loop
+SELECT count(*) into nr_curse from cursa where cod_sofer=s.cod;
+UPDATE istoric_sofer set nota=s.nota,numar_curse=nr_curse where cod_sofer=s.cod;
+end loop;
+for c in client_cursor loop
+UPDATE client set nota=c.nota where cod_client=c.cod;
+end loop;
+END;
+/
+UPDATE detalii_cursa set nota_sofer=8,nota_client=8 where cod_cursa=7;
+SELECT * FROM istoric_sofer;
+SELECT * FROM client;
+UPDATE detalii_cursa set nota_sofer=5,nota_client=5 where cod_cursa=7;
+
+
+--exercitiul 11
+--Creati un trigger care impune ca notele trebuie sa fie intre 1 si 10:
+
+CREATE OR REPLACE TRIGGER trig_ex11
+BEFORE UPDATE OF nota_sofer,nota_client ON detalii_cursa
+FOR EACH ROW
+WHEN ((NEW.nota_sofer>10 or NEW.nota_sofer<1) or (NEW.nota_client>10 or NEW.nota_client<1))
+BEGIN
+RAISE_APPLICATION_ERROR (-20000, 'Nota invalida!');
+END;
+/
+UPDATE detalii_cursa set nota_sofer=8,nota_client=5 where cod_cursa=7;
+--la toate de mai jos da eroare
+UPDATE detalii_cursa set nota_sofer=18,nota_client=-1 where cod_cursa=7;
+UPDATE detalii_cursa set nota_sofer=8,nota_client=-1 where cod_cursa=7;
+UPDATE detalii_cursa set nota_sofer=-8,nota_client=5 where cod_cursa=7;
+UPDATE detalii_cursa set nota_sofer=-8,nota_client=15 where cod_cursa=7;
+UPDATE detalii_cursa set nota_sofer=-8,nota_client=-5 where cod_cursa=7;
+UPDATE detalii_cursa set nota_sofer=18,nota_client=15 where cod_cursa=7;
+SELECT * FROM istoric_sofer;
+SELECT * FROM client;
+
+
+--exercitiul 12
+--Creati un trigger care interzice drop la tabele:
+
+CREATE OR REPLACE TRIGGER trig_ex12
+AFTER DROP ON SCHEMA
+BEGIN
+  RAISE_APPLICATION_ERROR (-20000, 'Nu se poate da drop la tabelele existente!');
+  ROLLBACK;
+END;
+/
+CREATE TABLE test_trig_ex12(
+id NUMBER(2));
+DROP TABLE test_trig_ex12;
+
+
+--exercitiul 13
+
+CREATE OR REPLACE PACKAGE pachet1 is
+
+PROCEDURE ex6; 
+
+PROCEDURE ex7;
+
+
+FUNCTION ex8(nume_ang IN angajat.nume%type)
+RETURN VARCHAR2;
+
+PROCEDURE ex9(adresa_c IN cursa.adresa_client%type);
+
+END pachet1;
+/
+
+CREATE OR REPLACE PACKAGE BODY pachet1 is
+
+PROCEDURE ex6 
+
+IS
+TYPE tablou_imbricat IS TABLE OF NUMBER;
+TYPE tablou_indexat IS TABLE OF NUMBER INDEX BY PLS_INTEGER;
+
+coduri_locatii tablou_imbricat := tablou_imbricat();
+coduri_angajati tablou_indexat;
+
+cod_ang NUMBER(4);
+nr_ang NUMBER(3);
+nume angajat.nume%type;
+prenume angajat.prenume%type;
+oras locatii.localitate%type;
+rol_ang angajat.tip_angajat%type;
+BEGIN 
+
+SELECT count(*) into nr_ang from angajat;
+SELECT cod_angajat bulk collect into coduri_angajati from angajat;
+
+for a in coduri_angajati.FIRST..coduri_angajati.LAST LOOP
+SELECT nume,prenume,tip_angajat INTO nume,prenume,rol_ang FROM angajat WHERE cod_angajat=coduri_angajati(a);
+cod_ang:=coduri_angajati(a);
+SELECT cod_locatie bulk collect into coduri_locatii from lucreaza_in where cod_angajat=cod_ang;
+
+DBMS_OUTPUT.PUT_LINE('Angajatul '||nume||' '||prenume||' cu codul '||cod_ang||':');
+if rol_ang='Sofer' then
+if coduri_locatii.count>0 then
+DBMS_OUTPUT.PUT_LINE('Lucreaza in orasele:');
+FOR i IN coduri_locatii.FIRST..coduri_locatii.LAST LOOP
+SELECT localitate INTO oras FROM locatii where cod_locatie=coduri_locatii(i);
+DBMS_OUTPUT.PUT_LINE(oras);
+END LOOP;
+else DBMS_OUTPUT.PUT_LINE('Nu poate lucra in nici un oras');
+end if;
+else DBMS_OUTPUT.PUT_LINE('Nu este sofer');
+end if;
+DBMS_OUTPUT.NEW_LINE;
+
+END LOOP;
+
+END;
+
+
+
+PROCEDURE ex7 
+IS
+nr_curse NUMBER(4);
+cursor masina_cursor is
+select cod_masina, marca, model
+from masina; 
+CURSOR angajat_cursor ( cod_masina masina.cod_masina%type) IS
+select nume, prenume, salariu
+from angajat
+where numar_masina = cod_masina;
+
+BEGIN
+for m in masina_cursor loop
+DBMS_OUTPUT.PUT_LINE('--------------------------------------------------------');
+DBMS_OUTPUT.PUT_LINE ('Masina '||m.cod_masina||' '||m.marca||' '||m.model);
+DBMS_OUTPUT.PUT_LINE('--------------------------------------------------------');
+SELECT count(*) into nr_curse from cursa where cod_masina=m.cod_masina;
+if nr_curse =0 then
+DBMS_OUTPUT.PUT_LINE( 'Aceasta masina nu a facut curse');
+else
+for a in angajat_cursor(m.cod_masina) loop
+DBMS_OUTPUT.PUT_LINE('Sofer: ' || a.nume || ' ' || a.prenume || ', Numar curse: ' || nr_curse);
+DBMS_OUTPUT.PUT_LINE('--------------------------------------------------------');
+end loop;
+end if;
+DBMS_OUTPUT.NEW_LINE;
+end loop;
+end;
+
+    FUNCTION ex8
+    (nume_ang IN angajat.nume%type)
+    RETURN VARCHAR2
+    IS
+    rezultat VARCHAR2(200);
+    cod_ang angajat.cod_angajat%type;
+    prenume angajat.prenume%type;
+    tip_ang angajat.tip_angajat%type;
+    sal angajat.salariu%type;
+    nr_masina angajat.numar_masina%type;
+    dispecerat angajat.dispecerat%type;
+    nr NUMBER(4);
+    oras locatii.localitate%type;
+    nr_telefon angajat.nr_telefon%type;
+    nota istoric_sofer.nota%type;
+    marca masina.marca%type;
+    model masina.model%type;
+    BEGIN
+        BEGIN
+        select cod_angajat, prenume, tip_angajat, salariu, numar_masina, dispecerat
+        into cod_ang,prenume,tip_ang,sal,nr_masina,dispecerat
+        from angajat
+        where upper(nume_ang) = upper(nume);
+        EXCEPTION
+        WHEN NO_DATA_FOUND 
+            THEN 
+            DBMS_OUTPUT.PUT_LINE('Angajatul nu exista');
+            RAISE_APPLICATION_ERROR (-20000,'Angajatul nu exista');
+        END;
+    rezultat:=rezultat||nume_ang||' '||prenume||', '||tip_ang||', salariu '||CAST(sal as VARCHAR2);
+    if tip_ang='Sofer' then
+    SELECT count(*) INTO nr FROM cursa where cod_sofer=cod_ang group by cod_sofer;      
+    SELECT a.nr_telefon, i.nota, m.marca, m.model into nr_telefon, nota, marca, model
+    from angajat a join istoric_sofer i on a.cod_angajat=i.cod_sofer join masina m on a.numar_masina=m.cod_masina
+    where cod_ang=a.cod_angajat;
+    
+    rezultat:=rezultat||', numar masina '||nr_masina||', nr curse '||CAST(nr as VARCHAR2)||', nr telefon '||nr_telefon
+    ||', nota sofer '||nota||', masina '||marca||' '||model;
+
+    elsif tip_ang='Dispecer' then
+    SELECT count(*) INTO nr FROM factura where cod_dispecer=cod_ang group by cod_dispecer;
+    rezultat:=rezultat||', dispecerat '||dispecerat||', nr facturi '||CAST(nr as VARCHAR2);
+    else RETURN 'Angajatul nu este sofer sau dispecer';
+    end if;
+    
+    RETURN rezultat;
+    EXCEPTION
+    WHEN NO_DATA_FOUND THEN    
+        DBMS_OUTPUT.PUT_LINE('Angajatul nu are curse realizate sau facturi emise');
+        RAISE_APPLICATION_ERROR (-20001,'Angajatul nu are curse realizate sau facturi emise');
+    WHEN TOO_MANY_ROWS THEN
+        DBMS_OUTPUT.PUT_LINE('Mai multi angajati cu acelasi nume');
+        RAISE_APPLICATION_ERROR (-20002, 'Mai multi angajati cu acelasi nume');
+    END;
+
+
+
+PROCEDURE ex9
+(adresa_c IN cursa.adresa_client%type)
+AS
+id_cursa cursa.cod_cursa%type; cod_sofer cursa.cod_sofer%type; v_adresa cursa.adresa_client%type;
+destinatie cursa.adresa_client%type; cod_loc cursa.cod_locatie%type; pret factura.pret%type;
+v_masina masina.cod_masina%type; marca masina.marca%type; v_model masina.model%type; 
+nota_sofer detalii_cursa.nota_sofer%type; localit locatii.localitate%type; nume angajat.nume%type; prenume angajat.prenume%type;
+BEGIN
+SELECT cod_cursa into id_cursa 
+from cursa where UPPER(adresa_client) LIKE '%'||UPPER(adresa_c)||'%'; 
+SELECT c.cod_sofer,c.adresa_client,c.destinatie,c.cod_locatie,f.pret,a.numar_masina,a.nume,a.prenume,
+m.marca,m.model, d.nota_sofer, l.localitate into cod_sofer,v_adresa,destinatie,cod_loc,pret,v_masina,nume,prenume,
+marca,v_model,nota_sofer,localit from cursa c join factura f on c.cod_cursa=f.cod_cursa join angajat a on
+c.cod_sofer=a.cod_angajat join masina m on a.numar_masina=m.cod_masina join detalii_cursa d on d.cod_cursa=c.cod_cursa
+join locatii l on l.cod_locatie=c.cod_locatie
+where c.cod_cursa=id_cursa; 
+DBMS_OUTPUT.PUT_LINE('Cursa ' || id_cursa || ' din orasul '|| localit || ' de la adresa '|| v_adresa ||' la adresa '|| 
+destinatie || chr(10)||' a fost facuta cu masina '|| marca ||' '|| v_model ||', soferul a primit nota '|| nota_sofer
+|| ' iar pretul cursei a fost '|| pret);
+EXCEPTION
+WHEN NO_DATA_FOUND THEN
+    DBMS_OUTPUT.PUT_LINE('Cursa care porneste de la adresa specificata nu exista');
+    RAISE_APPLICATION_ERROR (-20000,'Cursa care porneste de la adresa specificata nu exista');
+WHEN TOO_MANY_ROWS THEN
+    DBMS_OUTPUT.PUT_LINE('Mai multe curse cu aceeasi locatie, dati o locatie mai specifica');
+    RAISE_APPLICATION_ERROR (-20001, 'Mai multe curse cu aceeasi locatie, dati o locatie mai specifica');
+END;
+
+END;
+
+execute pachet1.ex6;
+
+execute pachet1.ex7;
+
+
+BEGIN
+DBMS_OUTPUT.PUT_LINE(pachet1.ex8('Pop'));
+END;
+/
+BEGIN
+DBMS_OUTPUT.PUT_LINE(pachet1.ex8('Marinescu'));
+END;
+/
+BEGIN
+DBMS_OUTPUT.PUT_LINE(pachet1.ex8('Georgescu'));
+END;
+/
+BEGIN
+DBMS_OUTPUT.PUT_LINE(pachet1.ex8('Marin'));
+END;
+/
+BEGIN
+DBMS_OUTPUT.PUT_LINE(pachet1.ex8('Stefanescu'));
+END;
+/
+
+EXECUTE pachet1.ex9('Unirii');
+EXECUTE pachet1.ex9('Dacia');
+EXECUTE pachet1.ex9('Rahovei');
+
+
+
+
+
+
+

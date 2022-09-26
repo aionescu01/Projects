@@ -1,0 +1,28 @@
+{
+    "test": [{
+            "question": "Din ce ani a capatat clubul numele Academica Clinceni?",
+            "answer": "2015!",
+            "difficulty": 2
+        },
+        {
+            "question": "In ce an a promovat Academica Clinceni in Liga 1?",
+            "answer": "2019!",
+            "difficulty": 1
+        },
+        {
+            "question": "Pe ce loc a terminat Clinceni in primul sezon in Liga 1?",
+            "answer": "Locul 10!",
+            "difficulty": 1
+        },
+        {
+            "question": "Care este cea mai buna clasare a Academicii Clinceni in Liga 1?",
+            "answer": "Locul 5!",
+            "difficulty": 1
+        },
+        {
+            "question": "In ce an a castigat Academica Clinceni Liga a treia?",
+            "answer": "2012!",
+            "difficulty": 3
+        }
+    ]
+}

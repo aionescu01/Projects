@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina principala</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="sigla.png">
+    <script type="text/javascript" src="countdown.js" defer></script>
+</head>
+
+
+
+<body>
+
+    <div class="navigation-bar">
+        <nav class="main nav">
+            <ul class="meniu">
+                <li>
+                    <a href="index.html"><img id="sigl" src="sigla.png" alt="sigla"></a>
+                </li>
+                <li><a class="link" href="stiri.html">Stiri</a></li>
+                <li><a class="link">Club</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="jucatori.html">Jucatori</a></li>
+                        <li><a class="link" href="stafftehnic.html">Staff tehnic</a></li>
+                        <li><a class="link" href="clasament.html">Clasament</a></li>
+                        <li><a class="link" href="acreditari.html">Acreditari presa</a></li>
+                        <li><a class="link" href="acreditari_login.html">Administrare acreditari</a></li>
+                    </ul>
+                </li>
+                <li><a class="link">Echipe</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="index.html">Prima echipa</a></li>
+                        <li><a class="link" href="validare.html">Verifica bilet</a></li>
+                        <li><a class="link" href="joc2.html">Joc: Gooool!</a></li>
+                        <li><a class="link" href="joc.html">Joc: Ghiceste numarul</a></li>
+                        <li><a class="link" href="jocintreb.html">Joc: Q&A!</a></li>
+                    </ul>
+                </li>
+                <li><a class="link" href="istorie.html">Istorie</a></li>
+                <li><a class="link">Galerie</a>
+                    <ul class="submeniu">
+                        <li><a class="link" href="galerie.html">Statica</a></li>
+                        <li><a class="link" href="galerieanimata.html">Animatie</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="asezare">
+        <div class="stiri">
+
+            <div class="card">
+                <a href="stiri/vplro.html"><img src="stiri/vplro.jpg" alt="VPLRO"></a>
+                <br>
+                <span style="font-size: 15px;">MARTIE 18, 2021</span>
+                <br>
+                <span class="titlustire" style="font-size: 25px; font-weight: bold;"><a href="stiri/vplro.html">VICTORIE ÎMPOTRIVA CAMPIOANEI ÎN VPL ROMÂNIA</a></span>
+                <br>
+                <span>Academica Clinceni eSports a avut o seară excelentă în VPL România (platforma PS). În primul meci al serii, echipa noastră a învins Dinamo.<a href="stiri/vplro.html" style="text-decoration: none; color: black;">Click aici pentru mai mult...</a></span>
+            </div>
+            <div class="card">
+                <a href="stiri/roU17.html"><img src="stiri/roU17.jpg" alt="Romania U17"></a>
+                <span style="font-size: 15px;">FEBRUARIE 18, 2021</span>
+                <br>
+                <span class="titlustire" style="font-size: 25px; font-weight: bold;"><a href="stiri/roU17.html">DAVID MORAR ŞI EDUARD RUSU AU EVOLUAT PENTRU ROMÂNIA U17 ÎN VICTORIA CU 2-1 ÎMPOTRIVA UNGARIEI U17</a></span>
+                <br>
+                <span>David Morar şi Eduard Rusu au făcut parte din lotul României U17 pentru partida amicală, de la Gyula, în compania Ungariei U17. <a href="stiri/roU17.html" style="text-decoration: none; color: black;">Click aici pentru mai mult...</a></span>
+            </div>
+            <div class="card">
+                <a href="stiri/toshev.html"><img src="stiri/toshev.jpg" alt="toshev"></a>
+                <br>
+                <span style="font-size: 15px;">IANUARIE 25, 2021</span>
+                <br>
+                <span class="titlustire" style="font-size: 25px; font-weight: bold;"><a href="stiri/toshev.html">UN NOU ATACANT BULGAR LA ACADEMICA CLINCENI</a></span>
+                <br>
+                <span>Academica Clinceni a reușit al treilea transfer în această iarnă. Lotului echipei noastre s-a alăturat Martin Toshev.<a href="stiri/toshev.html" style="text-decoration: none; color: black;">Click aici pentru mai mult...</a></span>
+            </div>
+            <div class="card">
+                <a href="stiri/adipopa.html"><img src="stiri/popa-site.jpg" alt="Adrian Popa"></a>
+                <br>
+                <span style="font-size: 15px;">IANUARIE 21, 2021</span>
+                <br>
+                <span class="titlustire" style="font-size: 25px; font-weight: bold;"><a href="stiri/adipopa.html">ADRIAN POPA VA JUCA LA ACADEMICA CLINCENI</a></span>
+                <br>
+                <span>Academica Clinceni și Adrian Popa au ajuns la o înțelegere. Astfel, mijlocașul de 32 de ani va evolua pentru echipa noastră până la finalul acestui sezon.<a href="stiri/adipopa.html" style="text-decoration: none; color: black;">Click aici pentru mai mult...</a></span>
+            </div>
+
+
+        </div>
+
+        <div id="countdown">Au mai ramas:
+            <span id="demo"></span>
+        </div>
+
+        <!--iframe id="clasament" width="520" height="550" src="https://www.fctables.com/romania/liga-i/iframe/?type=table&lang_id=2&country=178&template=112&team=179184&timezone=Europe/Bucharest&time=24&po=1&ma=1&wi=1&dr=1&los=1&gf=1&ga=1&gd=1&pts=1&ng=1&form=1&width=520&height=700&font=Verdana&fs=12&lh=22&bg=FFFFFF&fc=333333&logo=1&tlink=1&ths=1&thb=1&thba=FFFFFF&thc=000000&bc=dddddd&hob=f5f5f5&hobc=ebe7e7&lc=333333&sh=1&hfb=1&hbc=3bafda&hfc=FFFFFF"></iframe-->
+
+        <iframe id="clasament" src="http://www.tablesleague.com/iframe?width=520&height=430&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=1&goals_against=1&gd=1&points=1&next=1&form=1&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_649&team=36063&timezone=2&language=2&team_flags=0"
+            width="520" height=430></iframe>
+
+        <iframe id="club" src="https://footystats.org/api/club?id=6651" height="375" width="520"></iframe>
+
+
+        <iframe id="next_match" width="520" height="200" src="https://www.fctables.com/teams/fc-academica-clinceni-179184/iframe/?type=team-next-match&lang_id=2&country=178&template=112&team=179184&timezone=Europe/Bucharest&time=24&width=520&height=200&font=Verdana&fs=12&lh=22&bg=FFFFFF&fc=333333&logo=1&tlink=1&scfs=22&scfc=333333&scb=1&sclg=1&teamls=80&sh=1&hfb=1&hbc=3bafda&hfc=FFFFFF"></iframe>
+
+        <iframe id="last_match" width="520" height="200" src="https://www.fctables.com/teams/fc-academica-clinceni-179184/iframe/?type=team-last-match&lang_id=2&country=178&template=112&team=179184&timezone=Europe/Bucharest&time=24&width=520&height=200&font=Verdana&fs=12&lh=22&bg=FFFFFF&fc=333333&logo=1&tlink=1&scfs=22&scfc=333333&scb=1&sclg=1&teamls=80&sh=1&hfb=1&hbc=3bafda&hfc=FFFFFF"></iframe>
+
+
+    </div>
+
+
+</body>
+
+</html>

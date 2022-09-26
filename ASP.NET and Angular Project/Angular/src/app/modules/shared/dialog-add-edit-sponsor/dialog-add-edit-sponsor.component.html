@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>
+    {{ title }}
+  </h1>
+
+  <!--  <p [ngStyle]="isEditable ? {color: 'red'} : {color: 'blue'}">Details:</p>-->
+
+  <form [formGroup]="sponsorsForm" class="car-form">
+    <mat-form-field appearance="outline">
+      <mat-label>Sponsor Number</mat-label>
+      <input matInput placeholder="Sponsor Number" formControlName="id">
+    </mat-form-field>
+
+    <mat-form-field appearance="outline">
+      <mat-label>Sponsor Name</mat-label>
+      <input matInput placeholder="Sponsor Name" formControlName="name">
+    </mat-form-field>
+
+
+  </form>
+
+  <div class="actions">
+    <div class="button-wrapper" (click)="closeDialog()" appBtnHover>
+      Cancel
+    </div>
+
+    <div class="button-wrapper" (click)="saveData()" appBtnHover>
+      Save
+    </div>
+  </div>
+</div>
