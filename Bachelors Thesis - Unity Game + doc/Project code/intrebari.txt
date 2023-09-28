@@ -1,0 +1,5 @@
+pot folosi astar in proiectul de licenta? pe site ul astar zice ca se aplica Standard Unity Asset Store EULA (https://forum.arongranberg.com/t/licensing-question/13520/2), care zice (https://support.unity.com/hc/en-us/articles/205623589-Can-I-use-assets-from-the-Asset-Store-in-my-commercial-game-) ca daca cv e gratis si nu este precizat ca licentierea e diferita, atunci poate fi folosit. 
+
+Assets created by Unity are governed by the Asset Store EULA. This allows users to include the asset within their commercially released game or other completed digital media. Some assets however may be under restricted or custom licensing as stated on the product page for the specific asset. In this case, we recommend that you adhere to the custom licensing or listed restrictions.
+
+This means that you can only use non-restricted Unity assets for commercial use. Restricted Unity assets are for Educational purposes only.

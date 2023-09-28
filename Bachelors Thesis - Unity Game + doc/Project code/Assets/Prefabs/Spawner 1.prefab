@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3067540595368276050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3067540595368276052}
+  - component: {fileID: 3067540595368276051}
+  - component: {fileID: 3067540595368276053}
+  m_Layer: 0
+  m_Name: Spawner 1
+  m_TagString: Spawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3067540595368276052
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067540595368276050}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.099975586, y: -0.2999878, z: 0.14351037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3067540595368276051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067540595368276050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f03acb90cbe9c924cb71ad30cab58a8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  y_min: -7.5
+  y_max: 8.5
+  x_min: -14.5
+  x_max: 15.5
+  enemy1prefab: {fileID: 279344702779703886, guid: 00cd34d22c4a07749925755acf111b28, type: 3}
+  enemy2prefab: {fileID: 217155888036130488, guid: c77638bf3b1b75946a3d97c0c7722961, type: 3}
+  enemy3prefab: {fileID: 217155888036130488, guid: 1321e52b132bf9f4992c35f4a4495ce2, type: 3}
+  player: {fileID: 6700688540102923526, guid: 4489deb0e1e96d347829576a43b69c2d, type: 3}
+  spawnRate: 2.5
+  enemyMaxNumber: 1
+  enemiesSpawned: 0
+  allEnemiesSpawned: 0
+--- !u!114 &3067540595368276053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3067540595368276050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddf36d405a182bf48abcea8981b3b40f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  scoreMultiple: 5
+  x: 19
+  y: 9
+  y_min: -7.5
+  y_max: 8.5
+  x_min: -14.5
+  x_max: 15.5
+  powerup1prefab: {fileID: 644721966249307477, guid: 5f47bd2f6962c5f4485e3524864c183f, type: 3}
+  powerup2prefab: {fileID: 6982297191102659359, guid: c8a91542d2a213844b8ba01d5391fb7d, type: 3}
+  powerup3prefab: {fileID: 3927655349512479188, guid: 1bedf0c61bc3e3946a8ea1a24f50cc17, type: 3}
+  ammoPowerupPrefab: {fileID: 4450239039540510392, guid: 40615902127f9e24a837a3f506692c87, type: 3}
+  player: {fileID: 6700688540102923526, guid: 4489deb0e1e96d347829576a43b69c2d, type: 3}

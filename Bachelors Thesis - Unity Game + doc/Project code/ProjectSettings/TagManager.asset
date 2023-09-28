@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy1
+  - EnemyBullet
+  - Bullet
+  - Enemy2
+  - Obstacle
+  - Powerup
+  - Settings
+  - Timer
+  - GameManager
+  - Spawner
+  - PlayerPistol
+  - EnemyBullets
+  - PlayerSMG
+  - PlayerShotgun
+  - PlayerFists
+  - LevelUI
+  - ScoreText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Obstacle
+  - Character
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 3018326699
+    locked: 0
