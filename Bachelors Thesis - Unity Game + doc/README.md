@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Bachelor's degree thesis project - a 2D top-down shooter game with a retro style that is made in Unity, also using Microsoft Visual Studio for C# programming and Adobe Photoshop for some image editing and creation of some images used in the game. It features complete documentation regarding the ideas behind the creation of the game, the conceptualization of the game, and explaining all the aspects and steps I took in making the project, while also mentioning further developments, ideas and other aspects all big projects have. I have treated this project in a very professional manner which shows my capabilities of working in other projects of even bigger magnitude, while being very interested to work and improve.
 The following paragraphs are from the abstract in the documentation, as I think it says everything that is needed to see at first glance about this project, and to understand more I think the doc should be read.
 
@@ -12,3 +13,4 @@ game development and highlights the skills and knowledge gained in implementing 
 top-down shooter game. The game offers an engaging experience and explores relevant
 academic concepts, serving as a source of inspiration and learning for other developers
 and researchers in the field of games.
+
