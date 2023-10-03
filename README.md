@@ -4,15 +4,27 @@ This README will describe the projects in short, more information about each one
 
 ## AI image classification competition
 
-Kaggle competition that required us to classify images using Python AI libraries. I used the scikit learn library and multiple models to achieve my best accuracy of 57.494%.
+Kaggle competition that required us to classify images using Python AI libraries. I used the scikit learn library and multiple models to achieve my best accuracy of 57.494%. Images were randomly generated, and being given the images in text form, every pixel being described in text, and using these pixel values, the objective was to find a suitable model, and first teach it to classify the images, and then make the model classify a test batch. Submitting the answers gave the result stated above, an accuracy of 57.494%. Also, we had to create documentation for this project, reporting our research and other attempts to classify the images using different models and configurations.
+
+Languages: Python.
+Tools used: PyCharm.
+Achievements: conducting a complex research in the extremely attractive and complex domain of AI, documentation research, development, training the model, using the model with the test images, learning to use and work in a competition environment like Kaggle.
 
 ## ASP.NET and Angular Project - F1 team management app
 
 Project made in a team of 2 where we learnt both C#, the .NET framework and Angular. This web app was made to manage a Formula 1 team, its' drivers and the schedule. As it was a learning project, it mostly composes of CRUD operations and different frontend designs.
 
+Languages/frameworks: .NET, Angular.
+Tools used: MS Visual Studio, WebStorm.
+Achievements: database development, business rules implementation, generating a SQL database using .NET classes, learning full-stack development.
+
 ## Bachelors Thesis - Unity Game + doc
 
 My bachelors' degree project, it composes of a 2D top-down shooter game and full academic documentation, noting all the relevant aspects, like an abstract, an introduction which states the ideas and creating the concept of the project, but also the apps and languages used in development, the full technical report and a conclusion which states the good, the bad and future developments. I am very proud of this project and I think it shows that I am prepared for a professional work environment.
+
+Languages: C#.
+Tools used: Unity, Visual Studio 2022, Adobe Photoshop, Overleaf.
+Achievements: end to end development lifecycle, design, coding, testing, documentation, presenting to the evaluation group, creating a complex project that combines using a game development environment with using only open source materials and components.
 
 ## C++ OOP Projects
 
