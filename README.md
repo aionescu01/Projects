@@ -30,10 +30,19 @@ A more complex OOP project, using more complicated relationships between classes
 
 The programming side of this project is in R, as we demonstrated this law using code.
 
+## Production Engineering - Java, MongoDB, Jenkins, Docker
+
+Java database project made for learning to use Gradle for building projects, but also for testing of all types, like unit testing or integration testing. Also used MongoDB for the database, Docker for containerization and Jenkins for continuous integration and continuous delivery (CI/CD) pipeline automation. Only learnt the basics for the last ones.
+Tools used: Java, Docker, Jenkins, Gradle.
+
 ## SQL Database Project - taxi company
 
 Project made to learn all the aspects of SQL, from designing a database to adding many complex queries and relationships.
 
-## Web App firebase+react Football Team Manager
+## Web App 1 .net+react Football Team Manager
 
-Team project for managing a football team, from the players, staff to the games. It also has some interesting features, like fetching the weather at the stadium at the start of the next match.
+Team project for managing a football team, from the players and staff to the games played. The most interesting feature is that, provided a link of a team or of a player from the site transfermarkt.com, it will do web scraping and fill out all the details needed in the database.
+
+## Web App 2 firebase+react Football Team Manager
+
+Team project that expands and upgrades the first web app in this repo. It also has some interesting new features, like fetching the weather at the stadium at the hour of the start of the next match.
