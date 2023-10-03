@@ -1,5 +1,7 @@
 # Projects
 
+This repository includes many of the projects I, Alexandru Ionescu made, either myself or part of a team.
+
 EACH PROJECT HAS EITHER A README OR A FULL DOCUMENTATION IN ITS FOLDER.
 
 This README will describe the projects in short, more information about each one will be available in its own folder, with another README and in most cases its own documentation file.
