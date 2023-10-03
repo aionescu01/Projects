@@ -1,0 +1,166 @@
+body{
+    background: #E3F6F5;
+}
+
+.tabel {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 4px;
+    border: 2px solid #272643; 
+}
+
+.tabel thead tr {
+    background-color: #272643;
+    text-align: left;
+}
+
+.tabel th,
+.tabel td {
+    padding: 12px 15px;
+}
+
+.tabel tbody tr {
+    border-bottom: thin solid #E3F6F5;
+}
+
+.tabel tbody tr:nth-of-type(even) {
+    background-color: #BAE8E8;
+}
+
+.tabel tbody tr:nth-of-type(odd) {
+    background-color: #E3F6F5;
+}
+
+.tabel tbody tr:last-of-type {
+    border-bottom: thin solid #272643;
+}
+
+.tabel tbody tr.active-row {
+    font-weight: bold;
+    color: #272643;
+}
+
+button {
+  background-color: #272643;
+  border-radius: 100px;
+  box-shadow: #2C698D 0 4px 8px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  position: relative;
+}
+
+button:hover {
+  box-shadow: #2C698D 0 -25px 18px -14px inset,#2C698D 0 1px 2px,#2C698D 0 2px 4px,#2C698D 0 4px 8px,#2C698D 0 8px 16px,#2C698D 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+#butonAdd{
+    margin-left: 44%;
+    margin-top: 4%;
+    margin-bottom: 1.5%;
+    font-size: 100%;
+    padding:1%;
+    box-shadow: #272643 0 10px 18px;
+    border-radius: 10px;
+    background-color:#2C698D;
+}
+
+.login, .reset, .logged, .form, .match{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 1.1px;
+    margin-top: 50px;
+}
+
+.title{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: 100em;
+    height: 15em;
+}
+
+.title > Weather {
+    flex: 0 1 auto;
+    width: 30em;
+    height: 15em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+.title > div:first-of-type {
+    flex: 0 1 auto;
+    width: 60em;
+    height: 15em;
+    margin-left: auto;
+}
+
+.field > .raspuns {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.login > .field, .register > .field, .reset > .field, .logged > .text, .match > footer {
+    margin-bottom: 25px;
+}
+
+.login > .buton, .register > .buton, .reset > .buton, .logged * .buton {
+    background-color: #272643;
+    font-family: "Varela Round", sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.reset, .logged {
+    margin-bottom: 50px;
+}
+
+.field > label{
+    color: #272643;
+    font-size: 1.5em;
+}
+
+.form > Button, .login > Button, .reset > Button{
+    margin: 25px;
+}
+
+.export{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    padding: 25px 0px 50px 0px;
+}
+
+.export > .buton{
+    margin-left: 2em;
+}
+
+.export > CSVLink{
+    color: white;
+}
