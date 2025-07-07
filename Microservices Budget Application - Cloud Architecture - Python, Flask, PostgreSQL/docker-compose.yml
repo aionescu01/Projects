@@ -1,0 +1,108 @@
+services:
+  auth_service:
+    build:
+      context: ./auth_service
+    ports:
+      - "5002:5002"
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: auth_service
+    environment:
+      - JWT_SECRET_KEY=your_secret_key
+      - JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(days=7)
+    depends_on:
+      - auth-db
+      - fluentd
+
+  transaction_service:
+    build:
+      context: ./transaction_service
+    ports:
+      - "5001:5001"
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: transaction_service
+    environment:
+      - JWT_SECRET_KEY=your_secret_key
+      - JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(days=7)
+      - BUDGET_SERVICE_URL=http://budget_service:5003
+    depends_on:
+      - transaction-db
+      - budget_service
+      - fluentd
+
+  budget_service:
+    build:
+      context: ./budget_service
+    ports:
+      - "5003:5003"
+    logging:
+      driver: "fluentd"
+      options:
+        fluentd-address: localhost:24224
+        tag: budget_service
+    environment:
+      - JWT_SECRET_KEY=your_secret_key
+      - JWT_ACCESS_TOKEN_EXPIRES = datetime.timedelta(days=7)
+    depends_on:
+      - budget-db
+      - fluentd
+
+  frontend:
+    build:
+      context: ./frontend
+    container_name: frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - auth_service
+      - transaction_service
+      - budget_service
+
+  auth-db:
+    image: postgres:15
+    container_name: auth-db
+    environment:
+      POSTGRES_USER: auth_user
+      POSTGRES_PASSWORD: auth_password
+      POSTGRES_DB: auth_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./auth-db-init.sql:/docker-entrypoint-initdb.d/init-database.sql
+
+  transaction-db:
+    image: postgres:15
+    container_name: transaction-db
+    environment:
+      POSTGRES_USER: transaction_user
+      POSTGRES_PASSWORD: transaction_password
+      POSTGRES_DB: transaction_db
+    ports:
+      - "5434:5432"
+    volumes:
+      - ./transaction-db-init.sql:/docker-entrypoint-initdb.d/init-database.sql
+
+  budget-db:
+    image: postgres:15
+    container_name: budget-db
+    environment:
+      POSTGRES_USER: budget_user
+      POSTGRES_PASSWORD: budget_password
+      POSTGRES_DB: budget_db
+    ports:
+      - "5435:5432"
+    volumes:
+      - ./budget-db-init.sql:/docker-entrypoint-initdb.d/init-database.sql
+  fluentd:
+    image: fluent/fluentd:v1.16-1
+    ports:
+      - "24224:24224"
+    volumes:
+      - ./fluentd/fluent.conf:/fluentd/etc/fluent.conf
+volumes:
+  postgres_data:
